@@ -1,0 +1,13 @@
+This repository is dedicated to practice codes for my simple shell project.
+
+1. 0_getppid.c
+A C program that allows the generati
+
+2. av.c
+A C function to print out arguments passed to command line and print it out.
+
+3. getline.c
+A C function using getline function to accept input from stdin.
+
+4.
+A shell script to get maximum child possible a linux system can allow
