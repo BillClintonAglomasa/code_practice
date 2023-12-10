@@ -6,7 +6,7 @@ int main(void)
 {
 	char *argv[] = {"/bin/ls", "-l", "/home/vagrant/learnings/simple_shell", NULL};
 
-	printf("This is Bill");
+	printf("This is Bill\n");
 
 	if (execve(argv[0], argv, NULL) == -1)
 	{
