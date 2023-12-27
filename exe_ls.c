@@ -10,8 +10,8 @@ int main(int argc, char **argv)
 	int max_fork = 5;
 	pid_t child_process;
 
-	//while (1)
-	//{
+	while (1)
+	{
 	printf("$ ");
 
 	for (i = 0; i < max_fork; i++)
@@ -32,6 +32,7 @@ int main(int argc, char **argv)
 		{
 			wait(&wstatus);
 		}
+	}
 	}
 	exit(EXIT_SUCCESS);
 }
