@@ -27,6 +27,8 @@ int main(void)
   strcpy(abc->surname, "Aglomasa");
   abc->age = 20;
 
+  linker = malloc()
+
   printf("My firstname is %s while my surname is %s.I am %d old\n", abc->first_name, abc->surname, abc->age);
 
   free(abc);
