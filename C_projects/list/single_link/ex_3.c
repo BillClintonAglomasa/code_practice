@@ -28,6 +28,7 @@ int main(void)
   head->link->link = current;
 
   count_node(head);
+  print_data(head);
   
   return(0);
 }
