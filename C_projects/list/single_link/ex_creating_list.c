@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  *
- * Description: Create a linked list
+ * Description: Create a node for a linked list
  */
 
 struct node
