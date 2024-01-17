@@ -24,8 +24,5 @@ void print_data(struct node *head)
     {
       printf("%d\n", ptr->a);
       ptr = ptr->link;
-    }
-
-  printf("%d\n", i);
-  
+    } 
 }
