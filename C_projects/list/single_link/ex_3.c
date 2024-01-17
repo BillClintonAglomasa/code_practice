@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry point 
+ *
+ * Return: Always 0 (Success)
+ *
+ * Description: Create a linked list with 3 nodes but using
+ * head->link->link structure 
+ */
+
+struct node
+{
+  int a;
+  struct node *link;
+};
+
+int main(void)
+{
+  struct node *head = NULL;
+  head = malloc(sizeof(struct node));
+  head->a = 45;
+  head->link = NULL;
+
+  struct node *current = malloc(sizeof(node));
+  current->a = 98;
+  current->link = NULL;
+  head->link = current;
+
+  current = malloc(sizeof(node));
+  current->a = 3;
+  current->link = NULL;
+  head->link->link = current;
+  
+  return(0);
+}
