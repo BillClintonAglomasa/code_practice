@@ -19,6 +19,6 @@ struct node
   struct node *link; 
 };
 
-count_node(struct node *head);
+void count_node(struct node *head);
 
 #endif

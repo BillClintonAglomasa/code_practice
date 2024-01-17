@@ -1,4 +1,4 @@
-#include LIST_FUNCTIONS
+#include "list_functions.h"
 
 /**
  * count_node: Count the number of nodes in a singly linked list
@@ -26,6 +26,6 @@ void count_node(struct node *head)
       ptr = ptr->link;
     }
 
-  printf("%d", i);
+  printf("%d\n", i);
   
 }

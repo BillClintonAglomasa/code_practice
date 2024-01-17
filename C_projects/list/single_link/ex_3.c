@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "list_functions.h"
 
 /**
  * main - Entry point 
@@ -10,11 +9,6 @@
  * head->link->link structure 
  */
 
-struct node
-{
-  int a;
-  struct node *link;
-};
 
 int main(void)
 {
@@ -23,15 +17,17 @@ int main(void)
   head->a = 45;
   head->link = NULL;
 
-  struct node *current = malloc(sizeof(node));
+  struct node *current = malloc(sizeof(struct node));
   current->a = 98;
   current->link = NULL;
   head->link = current;
 
-  current = malloc(sizeof(node));
+  current = malloc(sizeof(struct node));
   current->a = 3;
   current->link = NULL;
   head->link->link = current;
+
+  count_node(head);
   
   return(0);
 }
