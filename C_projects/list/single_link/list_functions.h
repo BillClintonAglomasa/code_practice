@@ -1,0 +1,22 @@
+#ifndef LISTS
+#define LISTS
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * struct node - Singly linked list
+ *
+ * @a: integer
+ * @link: pointer to the next node
+ *
+ * Description: A singly linked node structure
+ */
+
+struct node
+{
+  int a;
+  struct node *link; 
+};
+
+count_node(struct node *head);
