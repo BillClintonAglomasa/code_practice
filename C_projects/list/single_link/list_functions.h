@@ -1,5 +1,5 @@
-#ifndef LISTS
-#define LISTS
+#ifndef LIST_FUNCTIONS
+#define LIST_FUNCTIONS
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,3 +20,5 @@ struct node
 };
 
 count_node(struct node *head);
+
+#endif
