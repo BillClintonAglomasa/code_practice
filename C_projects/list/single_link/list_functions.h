@@ -20,5 +20,6 @@ struct node
 };
 
 void count_node(struct node *head);
+void print_data(struct node *head);
 
 #endif
