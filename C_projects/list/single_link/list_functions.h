@@ -21,5 +21,5 @@ struct node
 
 void count_node(struct node *head);
 void print_data(struct node *head);
-
+void add_node_end(struct node *head, int data);
 #endif
