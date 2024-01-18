@@ -9,7 +9,7 @@
  * Return: Returns Nothing
  */
 
-void print_data(struct node *head, int data)
+void add_node_end(struct node *head, int data)
 {
   int i;
   struct node ptr, temp = NULL;
