@@ -12,7 +12,8 @@
 void add_node_end(struct node *head, int data)
 {
   int i;
-  struct node ptr, temp = NULL;
+  struct node *ptr = NULL;
+  struct node *temp = NULL;
 
   if (head == NULL)
     {
