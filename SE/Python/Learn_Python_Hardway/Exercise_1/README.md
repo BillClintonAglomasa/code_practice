@@ -1,4 +1,4 @@
-This host assignments submitted for week two in Python for Everybody course on coursera.
+This directory host assignments submitted for the Book, "Learning Python the Hardway".
 
-1. First assignment
-This file prints a sentence to the screen using the print function
+1. ex1.py
+This file introduces how to use the print function in python
