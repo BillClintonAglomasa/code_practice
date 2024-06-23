@@ -69,5 +69,11 @@ This file implements how to open files and write to a file.
 23. ex16_1.py
 This file implements how to open files and set it to read mode.
 
-23. ex16_1.py
+24. ex16_1.py
 This file implements how to open and write to files using script formatting 'f' and '.format().
+
+25. ex17.py
+This file implements copying from a file and writing to another file.
+
+26. ex17_sample.txt
+This file is contains contents that were copied from a file and written to it.
