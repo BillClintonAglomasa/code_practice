@@ -1,0 +1,2 @@
+This is a document I am experimenting on.
+To understand how to use the open(), write(), truncate() functions in python.
