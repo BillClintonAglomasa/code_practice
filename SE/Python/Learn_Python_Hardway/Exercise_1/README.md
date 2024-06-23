@@ -60,7 +60,7 @@ This file implements how to use 'read()' function.
 20. ex15_2.py
 This file implements how to take input using argv or input and to read it to stdout.
 
-21. ex15_experiment.txt
+21. ex15_sample.txt
 This is a text file containing words that was/will be read, written to or truncated.
 
 22. ex16.py
