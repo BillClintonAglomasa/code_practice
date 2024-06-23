@@ -1,2 +1,6 @@
-This is a document I am experimenting on.
-To understand how to use the open(), write(), truncate() functions in python.
+I am Bill Clinton Aglomasa.
+I am practising how to write to files using the "f" and ".format()" functions.
+I am going to become a software engineer soon.
+I am Bill Clinton Aglomasa.
+I am practising how to write to files using the "f" and ".format()" functions.
+I am going to become a software engineer soon.
