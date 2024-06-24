@@ -40,11 +40,11 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # Increment line to be read by one
-current_line = current_line + 1
+current_line +=1
 
 # Print the line to be read and the contents on that line
 print_a_line(current_line, current_file)
 
 # Increment the line to be read by one and read the content to screen
-current_line = current_line + 1
+current_line +=1
 print_a_line(current_line, current_file)
