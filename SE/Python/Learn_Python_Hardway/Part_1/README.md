@@ -77,3 +77,39 @@ This file implements copying from a file and writing to another file.
 
 26. ex17_sample.txt
 This file is contains contents that were copied from a file and written to it.
+
+27. ex18.py
+This file teaches on writing functions and their arguments.
+
+28. ex19.py
+This file implements a function and teaches how to call the function and provide variables.
+
+29. ex19_1.py
+This file uses arguments from command line as arguments to a function.
+
+30. ex20.py
+This file implements writing functions to work with files.
+
+31. ex21.py
+This file implements math functions and using return value in another function.
+
+32. ex21_1.py
+This file includes functions I wrote to implement a particular maths calculation.
+
+33. ex21_2.py
+This file implements a function I wrote to use PEMDAS to solve a mathematical problem.
+
+34. ex23.py
+This file implements encoding and decoding a file read using argv.
+
+35. ex24.py
+This file implements creating of functions, using arguments and formatting of text.
+
+36. ex25.py
+This file contain modules that split sentences and other functions that work with words.
+
+37. ex26.py
+This file is a text for completing Part_1 and is focused on fixing errors in a code.
+
+38. exercise26.txt
+This text file contains the broken code for the text fo completing Part-1 of the book.
