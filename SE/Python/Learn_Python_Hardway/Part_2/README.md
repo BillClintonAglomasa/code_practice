@@ -15,3 +15,6 @@ This file implements using 'if', 'else' and 'elif' statements and adds comment t
 5. ex31.py
 This file implements a simple game using the 'if, elif and else' statements
 
+6. ex33.py
+This file implements how to use 'while' loop.
+
