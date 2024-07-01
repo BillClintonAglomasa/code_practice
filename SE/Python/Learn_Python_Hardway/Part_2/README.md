@@ -21,3 +21,6 @@ This file implements how to use 'for' loop and saving the results to a list.
 7. ex33.py
 This file implements how to use 'while' loop.
 
+8. ex33_1.py
+This file implements a while loop in a function that takes a variable
+
