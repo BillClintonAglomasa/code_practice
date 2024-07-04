@@ -33,3 +33,6 @@ This file implements a for loop in a function that takes 3 arguments.
 11. ex34.py
 This file implements how to take items from a list using both cardinal and ordinal number system.
 
+12. ex34_1.py
+This file implements ex34.py by removing redundant codes.
+
