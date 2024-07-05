@@ -36,3 +36,9 @@ This file implements how to take items from a list using both cardinal and ordin
 12. ex34_1.py
 This file implements ex34.py by removing redundant codes.
 
+13. ex38.py
+This file implements a script to split a sentence into a list and append words from a list to it
+
+14. ex38_1.py
+This file implements ex38 put uses for loop instead of a while loop
+
