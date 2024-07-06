@@ -45,3 +45,6 @@ This file implements ex38 put uses for loop instead of a while loop
 15. ex39.py
 This file implements how to create and derive items from dictionaries using a for loop
 
+16. ex39_1.py
+This file implements a simple dictionary for the regions of Ghana
+
