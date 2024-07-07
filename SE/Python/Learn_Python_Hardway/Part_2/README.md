@@ -48,3 +48,6 @@ This file implements how to create and derive items from dictionaries using a fo
 16. ex39_1.py
 This file implements a simple dictionary for the regions of Ghana
 
+17. ex40.py
+This file implements a class in python.
+
