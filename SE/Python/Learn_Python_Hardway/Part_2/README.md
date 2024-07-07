@@ -51,3 +51,6 @@ This file implements a simple dictionary for the regions of Ghana
 17. ex40.py
 This file implements a class in python.
 
+18. ex40_1.py
+This file implements a class in python and creating 3 instances of the class.
+
