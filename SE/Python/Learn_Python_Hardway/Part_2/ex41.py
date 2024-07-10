@@ -12,6 +12,8 @@ PHRASES = {
       "Make a class named %%% that is-a %%%.",
     "class %%%(object):\n\tdef __init__(self, ***)" :
       "class %%% has-a __init__ that takes self and *** params.",
+    "class %%%(object):\n\tdef ***(self, @@@)":
+      "class %%% has-a function *** that takes self and @@@ params.",
     "*** = %%%()":
       "Set *** to an instance of class %%%.",
     "***.***(@@@)":
@@ -27,8 +29,9 @@ else:
     PHRASE_FIRST = False
 
 # Load up the words from the website
-for word in urlopen(WORD_URL).readline():
+for word in urlopen(WORD_URL).readlines():
     WORDS.append(str(word.strip(), encoding="utf-8"))
+
 
 def convert(snippet, phrase):
     class_names = [w.capitalize() for w in
@@ -39,7 +42,7 @@ def convert(snippet, phrase):
 
     for i in range(0, snippet.count("@@@")):
         param_count = random.randint(1,3)
-        param_names.appen(', '.join(
+        param_names.append(', '.join(
             random.sample(WORDS, param_count)))
 
     for sentence in snippet, phrase:
