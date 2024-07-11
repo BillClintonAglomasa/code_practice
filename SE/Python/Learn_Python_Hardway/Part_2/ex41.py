@@ -45,7 +45,7 @@ def convert(snippet, phrase):
         param_names.append(', '.join(
             random.sample(WORDS, param_count)))
 
-    for sentence in snippet, phrase:
+    for sentence in snippet:
         result = sentence[:]
 
         # Fake class names
@@ -73,11 +73,9 @@ try:
 
         for snippet in snippets:
             phrase = PHRASES[snippet]
-            question, answer = answer, question
-
-            print(question)
-
-            input("< ")
-            print(f"ANSWER: {answer}\n\n")
+            
+            answer = convert(snippet, phrase)
+    
+            print(f"ANSWER: {final_answer}\n\n")
 except EOFError:
     print("\nBye")
