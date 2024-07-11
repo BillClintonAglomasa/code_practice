@@ -57,3 +57,6 @@ This file implements a class in python and creating 3 instances of the class.
 19. ex41.py
 This file implements looping over dictionary and lists to teach concepts in how classes are created and inherited
 
+20. ex41_1.py
+This file implements ex41.py but with comments added
+
