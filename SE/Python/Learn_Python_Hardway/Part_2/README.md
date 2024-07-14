@@ -60,3 +60,6 @@ This file implements looping over dictionary and lists to teach concepts in how 
 20. ex41_1.py
 This file implements ex41.py but with comments added
 
+21. ex42.py
+This file implements the characteristics of class: instantiation, inheritance, composition and attribute.
+
