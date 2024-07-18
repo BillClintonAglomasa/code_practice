@@ -27,6 +27,9 @@ class Cat(Animal):
         ## Cat has-a name
         self.name = name
 
+    def cry(self):
+                 print("Meow!!")
+
 ## Person is-a object
 class Person(object):
 
@@ -61,10 +64,10 @@ class Halibut(Fish):
 
 ## rover is-a Dog
 rover = Dog("Rover", "Rotweiler", "Gravels")
-
+print(rover.breed)
 ## satan is-a Cat
 satan = Cat("Satan")
-
+print(satan.cry())
 ## Mary is-a Person
 mary = Person("Mary")
 
