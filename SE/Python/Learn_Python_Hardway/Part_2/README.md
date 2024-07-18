@@ -64,5 +64,8 @@ This file implements ex41.py but with comments added
 This file implements the characteristics of class: instantiation, inheritance, composition and attribute.
 
 22. ex42_1.py
-This file comments the code in ex42.py to solidify the concenpts in the exercise
+This file comments the code in ex42.py to solidify the concenpts in the exercise.
+
+23. ex42_2.py
+This file adds methods and functions to the classes created in ex42.py.
 
