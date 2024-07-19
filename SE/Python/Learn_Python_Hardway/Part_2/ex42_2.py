@@ -3,13 +3,13 @@
 ## Animal is-a object(yes, sort of confusing) look at the extra credit
 class Animal(object):
 
-    def __init__(self, name, kingdom, species):
+    def __init__(self, name, phylum, species):
         self.name = name
-        self.kingdom = kingdom
+        self.phylum = phylum
         self.species = species
         
     def print_details(self):
-        print(f"{name} is my name. I am from the kingdom {kingdom} and the species {species}")
+        print(f"{name} is my name. I am from the phylum {phylum} and the species {species}")
 
 ## Dog is-a Animal class
 class Dog(Animal):
@@ -23,9 +23,10 @@ class Dog(Animal):
 ## Cat is-a Animal
 class Cat(Animal):
 
-    def __init__(self, name):
+    def __init__(self, name, furcolor):
         ## Cat has-a name
         self.name = name
+        self.furcolor = furcolor
 
     def cry(self):
                  print("Meow!!")
@@ -33,9 +34,12 @@ class Cat(Animal):
 ## Person is-a object
 class Person(object):
 
-    def __init__(self, name):
+    def __init__(self, name, dof, location, age):
         ## Person has-a name
         self.name = name
+        self.dof = dof
+        self.location = location
+        self.age = age
 
         ## Person has-a pet of some kind
         self.pet = None
