@@ -63,6 +63,8 @@ class Salmon(Fish):
 
 ## Halibut is-a Fish
 class Halibut(Fish):
+    def print_name(sel):
+        print_name = pri
     pass
 
 
