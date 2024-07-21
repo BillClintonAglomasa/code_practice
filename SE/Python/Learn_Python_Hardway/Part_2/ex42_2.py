@@ -71,6 +71,7 @@ class Halibut(Fish):
 ## rover is-a Dog
 rover = Dog("Rover", "Rotweiler", "Gravels")
 print(rover.breed)
+print(rover.name)
 ## satan is-a Cat
 satan = Cat("Satan")
 print(satan.cry())
