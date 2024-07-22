@@ -28,7 +28,7 @@ class Cat(Animal):
         self.name = name
         self.furcolor = furcolor
 
-    def cry(self):
+    def sound(self):
                  print("Meow!!")
 
 ## Person is-a object
@@ -47,42 +47,46 @@ class Person(object):
 ## Employee is-a Person
 class Employee(Person):
 
-    def __init(self, name, salary):
+    def __init(self, name, salary, organization):
         ## Employee
         super(Employee, self).__init__(name)
         ## Employee has-a salary
         self.salary = salary
+        self.organization = organization
 
 ## Fish is-a object
 class Fish(object):
-    pass
+
+    def __init__(self, species):
+        self.species = species
 
 ## Salmon is-a Fish
 class Salmon(Fish):
-    pass
+
+    def __init__(self, weight, age):
+        self.weight = weight
+        self.age = age
 
 ## Halibut is-a Fish
 class Halibut(Fish):
-    def print_name(sel):
-        print_name = pri
-    pass
-
+    def print_name(self):
+        print(self)
 
 ## rover is-a Dog
 rover = Dog("Rover", "Rotweiler", "Gravels")
 print(rover.breed)
 print(rover.name)
 ## satan is-a Cat
-satan = Cat("Satan")
-print(satan.cry())
+satan = Cat("Satan", "White")
+print(satan.sound())
 ## Mary is-a Person
-mary = Person("Mary")
+mary = Person("Mary", "23-04-94", "Accra", "31")
 
 ## mary has-a pet
 mary.pet = satan
 
 ## frank is-a employee
-frank = Employee("Frank")
+frank = Employee("Frank", 6000, "NCHS")
 
 ## frank has-a pet
 frank.pet = rover
