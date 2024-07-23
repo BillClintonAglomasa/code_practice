@@ -3,13 +3,15 @@
 ## Animal is-a object(yes, sort of confusing) look at the extra credit
 class Animal(object):
 
-    def __init__(self, name, phylum, species):
+    def __init__(self, name, phylum):
         self.name = name
         self.phylum = phylum
-        self.species = species
         
     def print_details(self):
-        print(f"{name} is my name. I am from the phylum {phylum} and the species {species}")
+        print(f"{self.name} is my name. I am from the phylum {self.phylum}")
+
+    def print_name(self):
+        print(f"My name is {self.name}")
 
 ## Dog is-a Animal class
 class Dog(Animal):
@@ -22,14 +24,9 @@ class Dog(Animal):
 
 ## Cat is-a Animal
 class Cat(Animal):
-
-    def __init__(self, name, furcolor):
-        ## Cat has-a name
-        self.name = name
-        self.furcolor = furcolor
-
+    
     def sound(self):
-                 print("Meow!!")
+        return "Meow!!"
 
 ## Person is-a object
 class Person(object):
@@ -68,34 +65,77 @@ class Salmon(Fish):
         self.age = age
 
 ## Halibut is-a Fish
-class Halibut(Fish):
+class JHalibut(Fish):
     def print_name(self):
         print(self)
 
-## rover is-a Dog
-rover = Dog("Rover", "Rotweiler", "Gravels")
-print(rover.breed)
-print(rover.name)
+# Creating an instance of an animal class
+Janice = Animal("Fortis", "Animalia")
+
+# Printing the memory location and the type of class the object is related to 
+#print(Janice)
+
+# Applying methods to the instance of the Animalia class 
+#print(Janice.print_details())
+#print(Janice.print_name())
+
+
+# Creating an instance of a dog class
+#rover = Dog("Tutela", "Rotweiler", "Gravels")
+
+# Using a parent method in which rover do not have a particular attribute
+#print(rover.print_details())
+
+# Using a parent method in which the child class has the attribute
+#print(rover.print_name())
+
+# Assesssing the name attribute in the child class
+#print(rover.name)
+
+
+# Creating a class without attributes but those inherited from the parent
+#Don = Cat()
+
+# This will print an error message insisting that two positional arguments
+# have not been added during the instantiation of the Cat() class. This is
+# because the Cat class inherits from the Animal class and automatically
+# picks the attributes in the Animal if non is defined in it's init function
+#print(Don)
+
+# Creating a class with the idea that it inherits from the parent class
+Don = Cat("Donelo", "Animalia")
+
+# Using print and not return statement in a function of a class
+# When a method is created using the print statement instead of the return
+# statement, "None" is implicitly passed along with the string and "None"
+# is also printed
+#print(Don.print_details())
+
+# Using the return instead of the print statement
+# This returns the string without "None" implicitly passed along
+print(Don.sound())
+
+# observed in the Animal, Dog and Cat classes, 
 ## satan is-a Cat
-satan = Cat("Satan", "White")
-print(satan.sound())
+#satan = Cat("Satan", "White")
+#print(satan.sound())
 ## Mary is-a Person
-mary = Person("Mary", "23-04-94", "Accra", "31")
+#mary = Person("Mary", "23-04-94", "Accra", "31")
 
 ## mary has-a pet
-mary.pet = satan
+#mary.pet = satan
 
 ## frank is-a employee
-frank = Employee("Frank", 6000, "NCHS")
+#frank = Employee("Frank", 6000, "NCHS")
 
 ## frank has-a pet
-frank.pet = rover
+#frank.pet = rover
 
 ## flipper is-a Fish
-flipper = Fish()
+#flipper = Fish()
 
 ## crouse is-a Salmon
-crouse = Salmon()
+#crouse = Salmon()
 
 ## harry is-a Halibut
-harry = Halibut()
+#harry = Halibut()
