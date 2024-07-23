@@ -69,3 +69,6 @@ This file comments the code in ex42.py to solidify the concenpts in the exercise
 23. ex42_2.py
 This file adds methods and functions to the classes created in ex42.py.
 
+24. ex43_classes.py
+This file contains classes to implement a game.
+
