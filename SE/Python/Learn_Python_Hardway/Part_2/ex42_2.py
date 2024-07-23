@@ -70,7 +70,7 @@ class JHalibut(Fish):
         print(self)
 
 # Creating an instance of an animal class
-Janice = Animal("Fortis", "Animalia")
+#Janice = Animal("Fortis", "Animalia")
 
 # Printing the memory location and the type of class the object is related to 
 #print(Janice)
