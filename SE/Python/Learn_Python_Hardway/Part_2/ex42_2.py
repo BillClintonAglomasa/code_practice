@@ -103,7 +103,7 @@ Janice = Animal("Fortis", "Animalia")
 #print(Don)
 
 # Creating a class with the idea that it inherits from the parent class
-Don = Cat("Donelo", "Animalia")
+#Don = Cat("Donelo", "Animalia")
 
 # Using print and not return statement in a function of a class
 # When a method is created using the print statement instead of the return
@@ -113,7 +113,7 @@ Don = Cat("Donelo", "Animalia")
 
 # Using the return instead of the print statement
 # This returns the string without "None" implicitly passed along
-print(Don.sound())
+#print(Don.sound())
 
 # observed in the Animal, Dog and Cat classes, 
 ## satan is-a Cat
