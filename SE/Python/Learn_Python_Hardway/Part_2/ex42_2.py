@@ -139,3 +139,5 @@ class JHalibut(Fish):
 
 ## harry is-a Halibut
 #harry = Halibut()
+a = "Daniel"
+print(a)
