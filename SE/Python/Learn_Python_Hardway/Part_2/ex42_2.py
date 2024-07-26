@@ -65,8 +65,10 @@ class Salmon(Fish):
         self.age = age
 
 ## Halibut is-a Fish
-class JHalibut(Fish):
-    def print_name(self):
+class Halibut(Fish):
+    
+    def __init__(self, weight, age):
+        super(Halibut, self).__init(weight, age)
         print(self)
 
 # Creating an instance of an animal class
@@ -115,29 +117,9 @@ class JHalibut(Fish):
 # This returns the string without "None" implicitly passed along
 #print(Don.sound())
 
-# observed in the Animal, Dog and Cat classes, 
-## satan is-a Cat
-#satan = Cat("Satan", "White")
-#print(satan.sound())
-## Mary is-a Person
-#mary = Person("Mary", "23-04-94", "Accra", "31")
 
-## mary has-a pet
-#mary.pet = satan
+## Mary is-a Person
+#mary = Person("Mary", "23-04-94", "Accra", 31)
 
 ## frank is-a employee
 #frank = Employee("Frank", 6000, "NCHS")
-
-## frank has-a pet
-#frank.pet = rover
-
-## flipper is-a Fish
-#flipper = Fish()
-
-## crouse is-a Salmon
-#crouse = Salmon()
-
-## harry is-a Halibut
-#harry = Halibut()
-a = "Daniel"
-print(a)
