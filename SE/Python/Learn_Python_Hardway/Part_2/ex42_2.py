@@ -65,11 +65,14 @@ class Salmon(Fish):
         self.age = age
 
 ## Halibut is-a Fish
-class Halibut(Fish):
+class Halibut(Salmon):
     
-    def __init__(self, weight, age):
-        super(Halibut, self).__init(weight, age)
-        print(self)
+    def __init__(self, weight, age, harvest_date):
+        super(Halibut, self).__init__(weight, age)
+        self.harvest_date = harvest_date
+
+    def details(self):
+        return f"This fish has {self.weight}g weight, {self.age} wks old and harvested on {self.harvest_date}."
 
 # Creating an instance of an animal class
 #Janice = Animal("Fortis", "Animalia")
@@ -123,3 +126,7 @@ class Halibut(Fish):
 
 ## frank is-a employee
 #frank = Employee("Frank", 6000, "NCHS")
+
+#fish_bought = Halibut(30, 6, "26-07-24")
+#detail_fish = fish_bought.details()
+#print(detail_fish)
