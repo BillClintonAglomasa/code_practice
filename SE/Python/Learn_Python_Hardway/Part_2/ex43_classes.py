@@ -5,6 +5,9 @@ class Scene(object):
     def enter(self):
         pass
 
+    def reenter(self):
+        pass
+
 
 class Engine(object):
 
