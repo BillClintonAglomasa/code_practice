@@ -5,7 +5,7 @@ class Scene(object):
     def enter(self):
         pass
 
-    def reenter(self):
+    def re_enter(self):
         pass
 
 
