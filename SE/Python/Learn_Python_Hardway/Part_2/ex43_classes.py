@@ -5,9 +5,6 @@ class Scene(object):
     def enter(self):
         pass
 
-    def re_enter(self):
-        pass
-
 
 class Engine(object):
 
@@ -22,6 +19,7 @@ class Death(Scene):
 
     def enter(self):
         pass
+
 
 class CentralCorridor(Scene):
 
