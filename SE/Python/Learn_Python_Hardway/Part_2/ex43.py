@@ -35,7 +35,7 @@ class Death(Scene):
         "You died. You kinda such at this."
         "Your Mom would be proud...if she were smarter.",
         "Such a loser.",
-        "I have a small puppu that's better at this.",
+        "I have a small puppy that's better at this.",
         "You're worse than your Dad's jokes."
 
         ]
@@ -49,7 +49,7 @@ class CentralCorridor(Scene):
 
     def enter(self):
         print(dedent("""
-        The Gothons of Plante Percal #25 have invaded your ship and
+        The Gothons of Planet Percal #25 have invaded your ship and
         destroyed your entire crew. You are the last surviving
         member and your last mission is to get the neutron destruct
         bomb from the Weapons Armory, put it in the bridge, and
@@ -58,7 +58,7 @@ class CentralCorridor(Scene):
         Armory when a Gothon jumbs out, red scaly skin, dark grimy
         teeth, and evil clown constume flowing around his hate
         filled body. He's blocking the door to the Armory and
-        a"bout to pull a weapon to blast you.
+        about to pull a weapon to blast you.
         """))
 
         action = input("> ")
@@ -82,7 +82,7 @@ class CentralCorridor(Scene):
             slide right as the Gothon's blaster cranks a laser
             past your head. In the middle of your artful dodge
             your foot slips and you bang your head on the metal
-            wall and pass out. You wake yp shortly after only to
+            wall and pass out. You wake up shortly after only to
             die as the Gothon stomps on your head and eats you.
             """))
             return "death"
@@ -114,14 +114,14 @@ class LaserWeaponArmory(Scene):
         quiet, too quiet. You stand up and run to the far side of
         the room and find the neutron bomb in its container.
         There's a keypad lock on the box and you need the code to
-        get the bomb ou. If you get the code wrong 10 times then
+        get the bomb out. If you get the code wrong 10 times then
         the lock closes forever and you can't get the bomb. The
         code is 2 digits.
         """))
 
-        code = f"{randnt(1,9)}{randint(1,9)}{randint(1,9)}"
+        code = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
         guess = input("[keypad]> ")
-        guesses = 0
+        guesses = 1
 
         while guess != code and guesses < 10:
             print("BZZZZEDDD!")
