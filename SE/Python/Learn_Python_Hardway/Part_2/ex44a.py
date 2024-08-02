@@ -6,6 +6,7 @@ class Parent(object):
         print("PARENT implicit()")
 
 class Child(Parent):
+
     pass
 
 dad = Parent()
