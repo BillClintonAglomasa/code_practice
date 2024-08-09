@@ -77,3 +77,6 @@ This file implements inheritance where a child process executes a function in it
 
 26. ex44b.py
 This file implements inheritance where a child class overrides a function call in a parent class because it has it's own implementation.
+
+27. ex44c.py
+This file implements inheritance by explicitly calling the super keyword in a child class to call a function in the parent class.
