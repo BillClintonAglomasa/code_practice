@@ -86,3 +86,6 @@ This file implements three forms in which inheritance can be applied.
 1. Through a creation of a function/method in a parent class that in implicitly called when an object of the child class calls the function.
 2. Through the creation of the same function/method in a child class that is implemented differently in the child class.
 3. Thirdly, through explicitly calling the super function to call a particular function/method from the parent class.
+
+29. ex44e.py
+This file implements the use of object oriented programming by creating to classes that instead of inheriting classes, rather inherits methods from a different class and thereby eliminating issues that come with multiple inheritance.
