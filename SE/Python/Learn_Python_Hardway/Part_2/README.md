@@ -72,3 +72,5 @@ This file adds methods and functions to the classes created in ex42.py.
 24. ex43_classes.py
 This file contains classes to implement a game.
 
+25. ex44a.py
+This file implements inheritance where a child process executes a function in it's parent class.
