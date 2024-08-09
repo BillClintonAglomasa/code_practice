@@ -74,3 +74,6 @@ This file contains classes to implement a game.
 
 25. ex44a.py
 This file implements inheritance where a child process executes a function in it's parent class.
+
+26. ex44b.py
+This file implements inheritance where a child class overrides a function call in a parent class because it has it's own implementation.
