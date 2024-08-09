@@ -80,3 +80,9 @@ This file implements inheritance where a child class overrides a function call i
 
 27. ex44c.py
 This file implements inheritance by explicitly calling the super keyword in a child class to call a function in the parent class.
+
+28. ex44d.py
+This file implements three forms in which inheritance can be applied. 
+1. Through a creation of a function/method in a parent class that in implicitly called when an object of the child class calls the function.
+2. Through the creation of the same function/method in a child class that is implemented differently in the child class.
+3. Thirdly, through explicitly calling the super function to call a particular function/method from the parent class.
