@@ -1,4 +1,7 @@
-On this day 14th June 2024, you begun
-self taught software engineering course
+#This is a repository of C and Python learnings
 
-#This page will be dedicated to that
+1. Python
+This folder contains the learnings associated with Zed's "Learn Python the Hardway"
+
+2. C_programming
+This folder contain the learnings associated with using Kernighan and Ritchie's "The C programming language"
