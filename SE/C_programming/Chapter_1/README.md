@@ -8,3 +8,5 @@ This program prints hello to output.
 2.0 ex2.0_convert_fahrenheit_celcius.c
 This program implements conversion of fahrenheit to celcius
 
+3.0 ex2.1_convert_fahrenheit_celcius.c
+This program implements conversion of fahrenheit to celcius using a while loop and printf for formatting output.
