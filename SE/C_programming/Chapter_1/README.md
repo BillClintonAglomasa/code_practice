@@ -15,4 +15,8 @@ This program implements conversion of fahrenheit to celcius using a while loop a
 This program implements the conversion of fahrenheit to celsius and outputs it in a table format.
 
 5.0 ex2.3_convert_fahrenheit_celcius.c
-This program implements the conversion of temperature in fahrenheit to celcius using a for loop
+This program implements the conversion of temperature in fahrenheit to celcius using a for loop.
+
+5.0 ex2.4_symbolic_constants.c
+This program implements the conversion of temperature in fahrenheit to celcisu using a for loop and symbolic constants.
+
