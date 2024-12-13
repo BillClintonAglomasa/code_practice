@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 /**
- * Program to print EOF
+ * main - Entry to program
+ *
+ * Return: Always return (0)
+ *
+ * Description: Program to print EOF
  */
 
 int main(void)
 {
-  /** Declare variables */
-  long int c;
+	/** Declare variables */
+	long int c;
 
-  /** Initializing variables */
-  c = EOF;
- 
-  printf("\n%ld\n", c);
-  
-  return (0);
+	/** Initializing variables */
+	c = EOF;
+	printf("\n%ld\n", c);
+
+	return (0);
 }
