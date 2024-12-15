@@ -5,7 +5,6 @@ Description of programs.
 1.0 ex1_print_hello.c
 This program prints hello to output.
 
-
 2.0 ex2.0_convert_fahrenheit_celcius.c
 This program implements conversion of fahrenheit to celcius
 
@@ -37,3 +36,9 @@ This program prints the value of EOF.
 
 10.0 ex3.3_print_value_EOF.c
 This program prints the possible values of the expression 'getchar() != EOF'.
+
+11.0 ex4.0_character_count.c
+This program uses a while loop to count the number of characters.
+
+12.0 ex4.1_character_count.c
+This program uses a for loop to count the number of characters.
