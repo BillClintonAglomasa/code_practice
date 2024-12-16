@@ -42,3 +42,17 @@ This program uses a while loop to count the number of characters.
 
 12.0 ex4.1_character_count.c
 This program uses a for loop to count the number of characters.
+
+13.0 ex5.0_count_lines.c
+This program count the number of lines.
+
+14.0 ex5.1_count_lines_tabs_blanks.c
+This program count the number of lines, tabs and blanks in an input.
+
+15.0 ex5.2_replace_blank.c
+This program replaces two or more consecutive blanks in an input with just
+a blank when it outputs it.
+
+16.0 ex5.3_replace_newline_tabs_blanks.c
+This program replaces newline, tabs and blanks from input with '\n', '\t'
+and '\b' respectively in ouput.
