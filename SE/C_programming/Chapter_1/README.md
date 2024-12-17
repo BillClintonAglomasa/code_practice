@@ -56,3 +56,6 @@ a blank when it outputs it.
 16.0 ex5.3_replace_newline_tabs_blanks.c
 This program replaces newline, tabs and blanks from input with '\n', '\t'
 and '\b' respectively in ouput.
+
+17.0 ex6.0_count_characters_lines_words.c
+This program counts characters, lines and words from input.
