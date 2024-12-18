@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-# define IN 1
-# define OUT 0
+# define IN 1 /** Inside a word */
+# define OUT 0 /** Outside a word */
 
 /**
  * main - Entry to program
