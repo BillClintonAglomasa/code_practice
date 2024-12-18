@@ -17,7 +17,8 @@ int main(void)
 	int c, n1, c1, w1, state;
 
 	/** Initialize variables */
-	n1 = c1 = w1 = state = 0;
+	n1 = c1 = w1 = 0;
+	state = OUT;
 
 	/** Count characters, lines and words */
 	while ((c = getchar()) != EOF)
