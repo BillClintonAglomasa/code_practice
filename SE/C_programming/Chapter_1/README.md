@@ -61,4 +61,7 @@ and '\b' respectively in ouput.
 This program counts characters, lines and words from input.
 
 18.0 ex6.1_prints_input_per_line.c
-This program prints words from output on a newline
+This program prints words from output on a newline.
+
+19.0 ex7.0_count_digits_white_spaces_others.c
+This program counts digits, white spaces and other characters from input.
