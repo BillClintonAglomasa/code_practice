@@ -1,14 +1,35 @@
 #include <stdio.h>
 
 /**
+ * power - Computes the power of base raised to an exponent
+ * @m: The base number
+ * @n: The exponent
+ *
+ * Return: The computed value
+ */
+
+int power(int m, int n)
+{
+	/** Declaration of variables */
+	int i, p;
+
+	/** Initialize variable */
+	p = 1;
+
+	/** Loop to perform the calculation */
+	for (i = 0; i < n; ++i)
+		p *= m;
+
+	return (p);
+}
+
+/**
  * main - Entry of function
  *
  * Return: Always 0
  *
- * Description: A power function to help in mathematical calculations
+ * Description: A program to test the power function
  */
-
-int power(int m, int n);
 
 int main(void)
 {
