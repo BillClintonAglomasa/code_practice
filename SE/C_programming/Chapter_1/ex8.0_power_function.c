@@ -2,6 +2,7 @@
 
 /**
  * power - Computes the power of base raised to an exponent
+ *
  * @m: The base number
  * @n: The exponent
  *
