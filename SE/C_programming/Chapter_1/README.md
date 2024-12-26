@@ -65,3 +65,6 @@ This program prints words from output on a newline.
 
 19.0 ex7.0_count_digits_white_spaces_others.c
 This program counts digits, white spaces and other characters from input.
+
+20.0 ex8.0_power_function.c
+This program contains a function that take to parameters, exponent and base, to compute calculations.
