@@ -7,5 +7,13 @@
  * @n: The exponent
  *
  * Return: Return the value of the computation
+ */
 
- int powe(int base, int n)
+int power(int base, int n)
+{
+	int p;
+
+	for (p = 1; n > 0; --n)
+		p = p * base;
+	return p;
+}
