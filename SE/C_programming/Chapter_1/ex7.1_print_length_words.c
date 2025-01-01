@@ -1,4 +1,7 @@
 #include <stdio.h>
+
+/** Macros that define a state where one is either encountering space characters
+ */
 #define SPACEIN 1
 #define SPACEOUT 0
 
@@ -14,10 +17,11 @@
 int main(void)
 {
 	/** Declaration of variables */
-	int i, c, wspace, array[10];
+	int i, c, wcount, wspace, array[10];
 
 	/** Initialize variables */
 	wspace = SPACEOUT;
+	wcount = 0;
 
 	/** For loop to loop through array to set values */
 	for (i = 0; i < 10; ++i)
@@ -32,6 +36,15 @@ int main(void)
 			{
 				putchar('\n');
 				wspace = SPACEIN;
+
+				/** Word length */
+				if (wcount >0 && wcount < 10)
+					++array[wcount - 1];
+
+				else if (wcount >= 10)
+					++array[9];
+
+				wcount = 0;
 			}
 
 		}
@@ -39,6 +52,17 @@ int main(void)
 		{
 			putchar(c);
 			wspace = SPACEOUT;
+		}
+
+		if (wspace == SPACEOUT)
+		{
+			++wcount;
+		}
+
+		for (i = 0; i < 10; ++i)
+		{
+			++array[wcount];
+			printf("%d", array[i]);
 		}
 	}
 	return 0;
