@@ -17,7 +17,7 @@
 int main(void)
 {
 	/** Declaration of variables */
-	int i, c, wcount, wspace, array[10];
+	int i, j, c, wcount, wspace, array[10];
 
 	/** Initialize variables */
 	wspace = SPACEOUT;
@@ -38,7 +38,7 @@ int main(void)
 				wspace = SPACEIN;
 
 				/** Word length */
-				if (wcount >0 && wcount < 10)
+				if (wcount > 0 && wcount < 10)
 					++array[wcount - 1];
 
 				else if (wcount >= 10)
@@ -52,18 +52,26 @@ int main(void)
 		{
 			putchar(c);
 			wspace = SPACEOUT;
-		}
-
-		if (wspace == SPACEOUT)
-		{
 			++wcount;
+		}
+	}
+
+	if (wcount > 0)
+		{
+			if (wcount < 10)
+				++array[wcount -1];
+			else
+				++array[9];
 		}
 
 		for (i = 0; i < 10; ++i)
 		{
-			++array[wcount];
-			printf("%d", array[i]);
+			printf("%d", i + 1);
+
+			for (j = 0; j < array[i]; ++j)
+				putchar('*');
+			putchar('\n');
 		}
-	}
-	return 0;
+
+		return 0;
 }
