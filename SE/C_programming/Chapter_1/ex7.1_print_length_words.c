@@ -19,11 +19,10 @@ int main(void)
 	/** Declaration of variables */
 	int i, j, c, wcount, wspace, array[10];
 
-	/** Initialize variables */
+	/** Initialize variables and array*/
 	wspace = SPACEOUT;
 	wcount = 0;
 
-	/** For loop to loop through array to set values */
 	for (i = 0; i < 10; ++i)
 		array[i] = 0;
 
