@@ -67,6 +67,7 @@ int main(void)
 		{
 			printf("%d", i + 1);
 
+			/** Looping through to print the histogram */
 			for (j = 0; j < array[i]; ++j)
 				putchar('*');
 			putchar('\n');
