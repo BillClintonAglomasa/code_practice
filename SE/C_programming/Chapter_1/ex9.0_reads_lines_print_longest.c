@@ -27,3 +27,15 @@ int main(void)
 		printf("%s", longest);
 	return 0;
 }
+
+/**
+ * getline - A program to read a line and get the length
+ *
+ * @s: Holds the lines
+ * @lim: The integer of the lenght of the line
+ *
+ * Description: A program that reads lines from output and returns a
+ * line
+ */
+
+int getline(char s[], int lim)
