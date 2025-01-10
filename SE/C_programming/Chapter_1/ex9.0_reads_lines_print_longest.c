@@ -54,3 +54,14 @@ int getline(char s[], int lim)
 
 	return i;
 }
+
+/**
+ * copy - A program to copy input to another
+ *
+ * @to[]: Destination of the input (string) that is copied
+ * @from[]: Source of input (string) to be copied
+ *
+ * Definition: A program that copies a string from one destination to another
+ */
+
+void copy(char to[], char from[]);
