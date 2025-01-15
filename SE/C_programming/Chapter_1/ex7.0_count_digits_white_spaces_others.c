@@ -22,7 +22,7 @@ int main(void)
 
 	while ((c = getchar()) != EOF)
 		if (c >= '0' && c <= '9')
-			++ndigit[c-'0'];
+			++ndigit[c - '0'];
 		else if (c == ' ' || c == '\n' || c == '\t')
 			++nwhite;
 		else
