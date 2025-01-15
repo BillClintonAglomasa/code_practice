@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/** Macros that define a state where one is either encountering space characters
- */
+/** Define a state where one is either encountering space characters */
 #define SPACEIN 1
 #define SPACEOUT 0
 
@@ -19,7 +18,7 @@ int main(void)
 	/** Declaration of variables */
 	int i, j, c, wcount, wspace, array[10];
 
-	/** Initialize variables and array*/
+	/** Initialize variables and array */
 	wspace = SPACEOUT;
 	wcount = 0;
 
@@ -56,14 +55,19 @@ int main(void)
 	}
 
 	if (wcount > 0)
+	{
 		{
 			if (wcount < 10)
-				++array[wcount -1];
+				++array[wcount - 1];
 			else
 				++array[9];
 		}
+	}
 
-		for (i = 0; i < 10; ++i)
+	putchar('\n');
+
+	for (i = 0; i < 10; ++i)
+	{
 		{
 			printf("%d", i + 1);
 
@@ -72,6 +76,7 @@ int main(void)
 				putchar('*');
 			putchar('\n');
 		}
+	}
 
-		return 0;
+	return (0);
 }
