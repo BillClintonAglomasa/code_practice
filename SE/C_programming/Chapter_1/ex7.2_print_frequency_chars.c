@@ -8,7 +8,7 @@
  *
  * Return: Always 0
  *
- * Description: A program that prints the the frequency of a character
+ * Description: A program that prints the frequency of a character
  */
 
 int main(void)
@@ -17,12 +17,27 @@ int main(void)
 	int c;
 	char freq[CHAR_NUM];
 
-	/** Instantiate variables */
+	/** Initialize variables */
 	freq[CHAR_NUM] = {0};
 
-	while ((c = getchar() != EOF)
+	/** Check character and run if it is not EOF */
+	while ((c = getchar()) != EOF)
 		{
-			;
+			if (c >= 0 && c <= CHAR_NUM)
+			{
+				if (c >= 32 && c <= 128)
+				{
+					printf("%c: ", c);
+					++freq[c];
+				}
+				else
+				{
+					printf("0x%02X: ", c);
+					++freq[c];
+				}
+			}
 		}
+
+	/** Printing frequency of unique characters */
 	return (0);
 }
