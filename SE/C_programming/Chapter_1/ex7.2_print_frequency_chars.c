@@ -18,7 +18,6 @@ int main(void)
 
 	/** Initialize variables */
 	char freq[CHAR_NUM] = {0};
-	i = j = 0;
 
 	/** Check character and run if it is not EOF */
 	while ((c = getchar()) != EOF)
@@ -32,14 +31,17 @@ int main(void)
 
 	for (i = 0; i < CHAR_NUM; ++i)
 	{
-		if (c >= 32 && c <= 128)
-			printf("The character at position %c occurs: ", i);
-		else
-			printf("The special character 0x%02X occurs: ", i);
+		if (freq[i] > 0)
+		{
+			if (c >= 32 && c <= 128)
+				printf("The character at position %c occurs: ", i);
+			else
+				printf("The special character 0x%02X occurs: ", i);
 
-		for (j = 0; j < freq[i]; ++j)
-			putchar('*');
-		putchar('\n');
+			for (j = 0; j < freq[i]; ++j)
+				putchar('*');
+			putchar('\n');
+		}
 	}
 
 	return (0);
