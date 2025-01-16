@@ -13,13 +13,13 @@
 
 int main(void)
 {
-	/** Declare variables */
+	/** Declaration of variables */
 	int c, i, j;
 
 	/** Initialize variables */
 	int freq[CHAR_NUM] = {0};
 
-	/** Check character and run if it is not EOF */
+	/** Loop to check for characters */
 	while ((c = getchar()) != EOF)
 		{
 			if (c >= 0 && c <= CHAR_NUM)
@@ -33,7 +33,7 @@ int main(void)
 	{
 		if (freq[i] > 0)
 		{
-			if (i >= 32 && i <= 128)
+			if (i >= 32 && i < 128)
 				printf("The character %c occurs: ", i);
 			else
 				printf("The special character 0x%02X occurs: ", i);
