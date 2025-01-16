@@ -34,7 +34,7 @@ int main(void)
 		if (freq[i] > 0)
 		{
 			if (i >= 32 && i <= 128)
-				printf("The character at position %c occurs: ", i);
+				printf("The character %c occurs: ", i);
 			else
 				printf("The special character 0x%02X occurs: ", i);
 
