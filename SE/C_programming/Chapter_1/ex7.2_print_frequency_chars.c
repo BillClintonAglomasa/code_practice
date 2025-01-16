@@ -14,10 +14,11 @@
 int main(void)
 {
 	/** Declare variables */
-	int c;
+	int c, i, j;
 
 	/** Initialize variables */
 	char freq[CHAR_NUM] = {0};
+	i = j = 0;
 
 	/** Check character and run if it is not EOF */
 	while ((c = getchar()) != EOF)
@@ -27,5 +28,19 @@ int main(void)
 		}
 
 	/** Printing frequency of unique characters */
+	printf("Frequency of unique characters from input\n");
+
+	for (i = 0; i < CHAR_NUM; ++i)
+	{
+		if (c >= 32 && c <= 128)
+			printf("The character at position %c occurs: ", i);
+		else
+			printf("The special character 0x%02X occurs: ", i);
+
+		for (j = 0; j < freq[i]; ++j)
+			putchar('*');
+		putchar('\n');
+	}
+
 	return (0);
 }
