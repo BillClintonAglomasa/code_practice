@@ -17,7 +17,7 @@ int main(void)
 	int c, i, j;
 
 	/** Initialize variables */
-	char freq[CHAR_NUM] = {0};
+	int freq[CHAR_NUM] = {0};
 
 	/** Check character and run if it is not EOF */
 	while ((c = getchar()) != EOF)
