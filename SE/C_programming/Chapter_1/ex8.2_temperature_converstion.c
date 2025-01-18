@@ -1,14 +1,26 @@
 #include <stdio.h>
 
-#define CHAR_NUM 256
-
 /** Function prototype declaration */
 float fahrtocel(float fahr);
+
+/**
+ * main - Entry to program
+ *
+ * Return: Always 0
+ *
+ * Description: A program that uses the fahrtocel function to convert
+ *              temperature in fahrenheit to celsius and then prints it
+ *              to output with decimal placing.
+ */
 
 int main(void)
 {
 	/** Declaration of variables */
-	int a;
+	int i;
+	float c;
+
+	c = fahrtocel(23);
+	printf("%.2f\n", c);
 	return (0);
 }
 
