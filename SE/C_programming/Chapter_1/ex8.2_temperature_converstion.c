@@ -17,3 +17,14 @@ int main(void)
 {
 	return (0);
 }
+
+float fahrtocel(float fahr)
+{
+	/** Declaration of variable */
+	float c;
+
+	/** Temperature conversion */
+	c = (5.0 * (fahr - 32.0)) / 9.0;
+
+	return (c);
+}
