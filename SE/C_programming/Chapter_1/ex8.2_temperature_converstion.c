@@ -2,6 +2,16 @@
 
 #define CHAR_NUM 256
 
+/** Function prototype declaration */
+float fahrtocel(float fahr);
+
+int main(void)
+{
+	/** Declaration of variables */
+	int a;
+	return (0);
+}
+
 /**
  * fahrtocel - A function that converts temperature in fahrenheit to celsius
  *
@@ -11,20 +21,13 @@
  *              converts it to degree celsius and returns it as a float.
  */
 
-float fahrtocel(float fahr);
-
-int main(void)
-{
-	return (0);
-}
-
 float fahrtocel(float fahr)
 {
 	/** Declaration of variable */
-	float c;
+	float cels;
 
 	/** Temperature conversion */
-	c = (5.0 * (fahr - 32.0)) / 9.0;
+	cels = (5.0 * (fahr - 32.0)) / 9.0;
 
-	return (c);
+	return (cels);
 }
