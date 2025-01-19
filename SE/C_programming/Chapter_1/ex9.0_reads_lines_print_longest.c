@@ -35,7 +35,7 @@ int main(void)
 			copy(longest, line);
 		}
 	if (max > 0)
-		printf("%s", longest);
+		printf("\nThe longest line is: %s\n", longest);
 	return 0;
 }
 
