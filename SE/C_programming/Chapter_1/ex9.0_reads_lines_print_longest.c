@@ -2,6 +2,10 @@
 
 #define MAXLINE 1000 /** Maximum input line size */
 
+/** Function prototypes */
+int get_line (char s[], int max_length);
+void copy(to[], from[]);
+
 /**
  * main - Entry to program
  *
