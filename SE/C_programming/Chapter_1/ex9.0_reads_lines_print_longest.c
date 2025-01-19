@@ -24,7 +24,7 @@ int main(void)
 	/** Checks the length of line, sets it to max if it is longer than
 	 *  previous line
 	 */
-	while ((len = getline(line, MAXLINE)) > 0)
+	while ((len = get_line(line, MAXLINE)) > 0)
 		if (len > max)
 		{
 			max = len;
@@ -47,7 +47,7 @@ int main(void)
  *              as the maximum length of the line and returns the length
  */
 
-int getline(char s[], int lim)
+int get_line(char s[], int lim)
 {
 	int c, i;
 
