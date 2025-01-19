@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #define MAXLINE 1000 /** Maximum input line size */
+
 /**
  * main - Entry to program
  *
@@ -16,7 +18,12 @@ int main(void)
 	char line[MAXLINE];
 	char longest[MAXLINE];
 
+	/** Initialization of variable */
 	max = 0;
+
+	/** Checks the length of line, sets it to max if it is longer than
+	 *  previous line
+	 */
 	while ((len = getline(line, MAXLINE)) > 0)
 		if (len > max)
 		{
@@ -29,13 +36,15 @@ int main(void)
 }
 
 /**
- * getline - A program to read a line and get the length
+ * getline - A function to reads a line and returns the length
  *
- * @s: Holds the lines
- * @lim: The integer of the lenght of the line
+ * @s: An array that stores the character string of a line
+ * @lim: The maximum character length of the line
  *
- * Description: A program that reads lines from output and returns a
- * line
+ * Return: Returns the length of the line
+ *
+ * Description: A function that takes a string array and an integer
+ *              as the maximum length of the line and returns the length
  */
 
 int getline(char s[], int lim)
@@ -56,12 +65,15 @@ int getline(char s[], int lim)
 }
 
 /**
- * copy - A program to copy input to another
+ * copy - A function to copies a line from one array to another array
  *
- * @to[]: Destination of the input (string) that is copied
- * @from[]: Source of input (string) to be copied
+ * @to: An array that stores the character string that is copied
+ * @from: An array that stores the character string of a line to be copied
  *
- * Definition: A program that copies a string from one destination to another
+ * Return: Returns nothing
+ *
+ * Definition: A function that takes two arrays, coping the character string
+ *             from one of the array to the other array and returns nothing
  */
 
 void copy(char to[], char from[]);
