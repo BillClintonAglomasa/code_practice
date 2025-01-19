@@ -80,11 +80,11 @@ int get_line(char s[], int lim)
  *             from one of the array to the other array and returns nothing
  */
 
-void copy(char to[], char from[]);
+void copy(char to[], char from[])
 {
 	int i;
 
 	i = 0;
-	while (to[i] = from[i])
-		+ii;
+	while ((to[i] = from[i]) != '\0')
+		++i;
 }
