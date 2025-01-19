@@ -4,7 +4,7 @@
 
 /** Function prototypes */
 int get_line (char s[], int max_length);
-void copy(to[], from[]);
+void copy(char to[], char from[]);
 
 /**
  * main - Entry to program
