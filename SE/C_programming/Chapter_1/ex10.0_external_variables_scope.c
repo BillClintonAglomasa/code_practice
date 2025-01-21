@@ -43,10 +43,10 @@ int main(void)
  *              variables to read and returns the length of the line
  */
 
-int get_line(void)
+int my_getline(void)
 {
 	/** Declaration of variables */
-	int i;
+	int i, c;
 	extern char line[];
 
 	/** Checks for conditions for a line and appends null terminator */
@@ -65,13 +65,13 @@ int get_line(void)
 	return (i);
 }
 
-/**                                                                                                                                                   
- * copy - Copy characters from one array to another array                                                                                             
- *                                                                                                                                                    
- * Return: Return nothing                                                                                                                             
- *                                                                                                                                                    
- * Description: A function that takes no arguments and copy characters from                                                                           
- *              one array to the other.                                                                                                               
+/**
+ * copy - Copy characters from one array to another array
+ *
+ * Return: Return nothing
+ *
+ * Description: A function that takes no arguments and copy characters from
+ *              one array to the other.
  */
 
 void copy(void)
@@ -83,6 +83,6 @@ void copy(void)
 	/** Instantiate variable */
 	j = 0;
 
-	while ((longest[i] = line[i]) != '\0')
+	while ((longest[j] = line[j]) != '\0')
 		++j;
 }
