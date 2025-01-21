@@ -86,7 +86,15 @@ This program uses get_line and copy functions to count the total number of
 characters of a line and if a new line is longer than the previous line, it
 copies it and then prints it to the screen.
 
-24.0 ex10_external_variables_scope.c
+24.0 ex9.1_reads_lines_print_longest.c
+This program is similar to ex9.0_reads_lines_print_longest.c but this also
+prints to output the character length of the longest line.
+
+25.0 ex9.2_reads_lines_print_longest.c
+This program is similar to ex9.1_reads_lines_print_longest.c but instead print
+any line with characters beyond 79.
+
+26.0 ex10_external_variables_scope.c
 This program uses get_line and copy functions to count the total number of
 characters of a line and if a new line is longer than the previous line, it
 copies it and then prints it to the screen. Instead of using local variables,
