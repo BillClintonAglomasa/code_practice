@@ -64,3 +64,25 @@ int get_line(void)
 
 	return (i);
 }
+
+/**                                                                                                                                                   
+ * copy - Copy characters from one array to another array                                                                                             
+ *                                                                                                                                                    
+ * Return: Return nothing                                                                                                                             
+ *                                                                                                                                                    
+ * Description: A function that takes no arguments and copy characters from                                                                           
+ *              one array to the other.                                                                                                               
+ */
+
+void copy(void)
+{
+        /** Declaration of variables */
+        int j;
+        extern char line[], longest[];
+
+	/** Instantiate variable */
+	j = 0;
+
+	while ((longest[i] = line[i]) != '\0')
+		++j;
+}
