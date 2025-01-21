@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * power - Raise a base to the n-th powe
+ * power - Raise a base to the n-th power
  *
  * @base: The base
  * @n: The exponent

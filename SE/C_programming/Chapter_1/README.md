@@ -1,5 +1,6 @@
 This directory contains small programs in C which is needed to build competency
-in the C program.
+in the C program. The a.out file is always updated to run the debug the programs
+that are written.
 
 Description of programs.
 1.0 ex1_print_hello.c
@@ -67,4 +68,26 @@ This program prints words from output on a newline.
 This program counts digits, white spaces and other characters from input.
 
 20.0 ex8.0_power_function.c
-This program contains a function that take to parameters, exponent and base, to compute calculations.
+This program contains a function that take two parameters, exponent and base,
+to compute calculations.
+
+21.0 ex8.1_power_function.c
+A function that computes result of a power calculation. This function uses C's
+principle, where arguments values are copied and a function does not change the
+real value.
+
+22.0 ex8.2_temperature_conversion.c
+This program uses fahrtocel function to convert temperature from fahrenheit to
+celsius and iterate 10x by reducing the value of the fahrenhiet temperature that
+is converted.
+
+23.0 ex9.0_reads_lines_print_longest.c
+This program uses get_line and copy functions to count the total number of
+characters of a line and if a new line is longer than the previous line, it
+copies it and then prints it to the screen.
+
+24.0 ex10_external_variables_scope.c
+This program uses get_line and copy functions to count the total number of
+characters of a line and if a new line is longer than the previous line, it
+copies it and then prints it to the screen. Instead of using local variables,
+this uses extern function to declare global variables to implement the program.
