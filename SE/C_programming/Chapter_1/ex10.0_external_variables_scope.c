@@ -30,7 +30,7 @@ int main(void)
 		}
 
 	if (max > 0)
-		printf("%s", longest);
+		printf("\n%s\n", longest);
 	return 0;
 }
 
