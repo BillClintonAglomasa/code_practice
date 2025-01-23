@@ -37,7 +37,6 @@ int main(void)
 			max = len;
 			copy(longest, line);
 			printf("\n%d, %s", max, longest);
-			max = 79;
 		}
 	}
 
@@ -71,6 +70,12 @@ int get_line(char s[], int lim)
 	{
 		s[i - 2] = '\0';
 		--i;
+	}
+
+	else if (i == 1 && (s[i - 1] == '\n'))
+	{
+		s[0] = '\0';
+		return (0);
 	}
 
 	return (i);
