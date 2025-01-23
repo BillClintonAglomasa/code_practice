@@ -94,7 +94,11 @@ prints to output the character length of the longest line.
 This program is similar to ex9.1_reads_lines_print_longest.c but instead print
 any line with characters beyond 79.
 
-26.0 ex10_external_variables_scope.c
+26.0 ex9.3_reads_lines_print_longest.c
+This program is similar to ex9.1_reads_lines_print_longest.c but removes
+terminating tabs and newlines and also does not print empty lines.
+
+27.0 ex10_external_variables_scope.c
 This program uses get_line and copy functions to count the total number of
 characters of a line and if a new line is longer than the previous line, it
 copies it and then prints it to the screen. Instead of using local variables,
