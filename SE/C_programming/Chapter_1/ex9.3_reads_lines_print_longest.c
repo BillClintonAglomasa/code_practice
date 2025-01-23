@@ -12,8 +12,8 @@ void copy(char to[], char from[]);
  *
  * Return: Always 0
  *
- * Defintion: A program that read lines and only print lines greater than 80
- *            characters.
+ * Defintion: A program that read lines and only print lines greater than 1
+ *            character.
  */
 
 int main(void)
@@ -75,7 +75,7 @@ int get_line(char s[], int lim)
 	else if (i == 1 && (s[i - 1] == '\n'))
 	{
 		s[0] = '\0';
-		return (0);
+		i = 0;
 	}
 
 	return (i);
