@@ -20,7 +20,7 @@ void reverse(char s[], int len)
 	/** Initialization of variables */
 	j = len - 1;
 
-	for (i = 0; i < j; ++i; --j)
+	for (i = 0; i < j; ++i, --j)
 	{
 		temp = s[i];
 		s[i] = s[j];
