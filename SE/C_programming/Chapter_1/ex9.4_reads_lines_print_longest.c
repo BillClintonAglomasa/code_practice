@@ -7,12 +7,14 @@
 int get_line(char s[], int max_length);
 void copy(char to[], char from[]);
 void reverse(char s[], int len);
+
 /**
  * main - Entry to program
  *
  * Return: Always 0
  *
- * Defintion: A program that read lines and only print lines greater than 1
+ * Defintion: A program that read lines with characters greater than 1, copies
+ *            it and reverses the characters
  *            character.
  */
 
@@ -36,6 +38,7 @@ int main(void)
 		{
 			max = len;
 			copy(longest, line);
+			reverse(longest, max);
 			printf("\n%d, %s", max, longest);
 		}
 	}
