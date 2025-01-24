@@ -6,7 +6,7 @@
 
 int get_line(char s[], int max_length);
 void copy(char to[], char from[]);
-
+void reverse(char s[], int len);
 /**
  * main - Entry to program
  *
