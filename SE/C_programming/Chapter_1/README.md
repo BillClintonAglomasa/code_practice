@@ -103,3 +103,4 @@ This program uses get_line and copy functions to count the total number of
 characters of a line and if a new line is longer than the previous line, it
 copies it and then prints it to the screen. Instead of using local variables,
 this uses extern function to declare global variables to implement the program.
+-c \n 28.0 detab.c\nThis program replaces tabs in the input with the proper number of blanks to space to the next tab stop.
