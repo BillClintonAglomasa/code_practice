@@ -3,8 +3,7 @@
 #define TABSTOP 4
 
 /** Function prototype */
-
-void detab_function (TABSTOP);
+void detab_function (int tabstop);
 
 /**
  * main - Entry point of program
