@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * detab_function - A function to replaces tabs with the right number of spaces
  *
