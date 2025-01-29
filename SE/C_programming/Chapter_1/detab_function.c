@@ -28,14 +28,14 @@ void detab_function(int tabstop)
 			while (i < spaces)
 			{
 				putchar(' ');
-				++i;
-				++column_position;
+				i++;
+				column_position++;
 			}
 		}
 		else
 		  {
 			  putchar(c);
-			  ++column_position;
+			  column_position++;
 			  if (c == '\n')
 				  column_position = 0;
 		  }
