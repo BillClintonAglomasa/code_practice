@@ -11,7 +11,7 @@
  *              stop and then adds the required space to format the text.
  */
 
-void detab_function(int TABSTOP)
+void detab_function(int tabstop)
 {
 	/** Declaration of variables */
 	int c, i, column_position, spaces;
@@ -24,7 +24,7 @@ void detab_function(int TABSTOP)
 	{
 		if (c == '\t')
 		{
-			spaces = TABSTOP - (column_position % TABSTOP);
+			spaces = tabstop - (column_position % tabstop);
 			while (i < spaces)
 			{
 				putchar(' ');
