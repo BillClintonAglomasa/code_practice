@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+#define TABSTOP 4
+
+/** Function prototype */
+
+void detab_function (TABSTOP);
+
 /**
  * main - Entry point of program
  *
@@ -11,16 +17,8 @@
 
 int main(void)
 {
-	/** Declaration of variables */
-	int c;
+	/** Calling the tab function to process input data */
+	detab_function(TABSTOP);
 
-	/** Initialization of variables */
-
-	while ((c = getchar()) != EOF)
-	{
-		if (c == '\t')
-			;
-		putchar(c);
-	}
 	return (0);
 }
