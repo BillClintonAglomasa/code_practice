@@ -110,5 +110,6 @@ This function reverses the character position of characters by taking an array
 of characters and moving the last characters to the first until it is totally
 reversed.
 
-\n 28.0 detab.c\nThis program replaces tabs in the input with the proper
-number of blanks to space to the next tab stop.
+29.0 detab.c
+This program replaces tabs in the input with the proper number of blanks to
+space to the next tab stop.
