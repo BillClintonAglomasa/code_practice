@@ -3,6 +3,9 @@
 /**
  * detab_function - A function to replaces tabs with the right number of spaces
  *
+ * @tabstop: An integer representing the number of spaces a tab needs to be
+ *           replaced with.
+ *
  * Return: Nothing
  *
  * Description: This is a function that takes in an integer of the number of
@@ -17,7 +20,7 @@ void detab_function(int tabstop)
 	int c, i, column_position, spaces;
 
 	/** Initialization of variables */
-	i = column_position = 0;
+	column_position = 0;
 
 	/** Check if character is not EOF */
 	while ((c = getchar()) != EOF)
@@ -25,6 +28,8 @@ void detab_function(int tabstop)
 		if (c == '\t')
 		{
 			spaces = tabstop - (column_position % tabstop);
+			i = 0;
+
 			while (i < spaces)
 			{
 				putchar(' ');
