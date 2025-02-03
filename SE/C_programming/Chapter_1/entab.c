@@ -11,5 +11,12 @@
 
 int main(void)
 {
+	/** Declare variables */
+	int spaces;
+
+	/** Instantiate variables */
+	spaces = 4;
+
+	entab(spaces)
 	return (0);
 }
