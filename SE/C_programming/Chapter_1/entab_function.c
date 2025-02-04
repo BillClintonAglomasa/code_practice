@@ -12,4 +12,22 @@
  */
 
 void entab_funciton(int tabstop)
-{}
+{
+	/** Declaration of variables */
+	int c, column_position, blank_count;
+
+	/** Initialization of variables */
+	column_position = 0;
+	blank_count = 0;
+
+	while ((c = getchar()) != EOF)
+	{
+		if (c == ' ')
+		{
+			blank_count++;
+		}
+
+		else
+		{}
+	}
+}
