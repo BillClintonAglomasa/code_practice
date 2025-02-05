@@ -11,7 +11,7 @@
  *              replace the number of blanks with a tab.
  */
 
-void entab_funciton(int tabstop)
+void entab_function(int tabstop)
 {
 	/** Declaration of variables */
 	int c, column_position, blank_count, spaces_to_tab;
