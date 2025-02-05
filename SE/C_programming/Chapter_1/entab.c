@@ -17,6 +17,6 @@ int main(void)
 	/** Instantiate variables */
 	spaces = 4;
 
-	entab(spaces)
+	entab_function(spaces);
 	return (0);
 }
