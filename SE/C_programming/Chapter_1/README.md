@@ -120,3 +120,8 @@ spaces needed to replace tabs from an input on a line.
 
 31.0 entab.c
 This program replaces blanks in the input with tabs and spaces where necessary.
+
+32.0 entab_function.c
+This function takes an integer value and uses it as the default number of spaces
+that represents a tab and uses it to calculate the spaces need to replace blanks
+with either a tab or space.
