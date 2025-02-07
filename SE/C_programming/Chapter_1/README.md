@@ -117,3 +117,6 @@ space to the next tab stop.
 30.0 detab_function.c
 This function takes an integer value and uses it as the default number of
 spaces needed to replace tabs from an input on a line.
+
+31.0 entab.c
+This program replaces blanks in the input with tabs and spaces where necessary.
