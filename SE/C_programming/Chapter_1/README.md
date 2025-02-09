@@ -124,4 +124,8 @@ This program replaces blanks in the input with tabs and spaces where necessary.
 32.0 entab_function.c
 This function takes an integer value and uses it as the default number of spaces
 that represents a tab and uses it to calculate the spaces need to replace blanks
-with either a tab or space.
+with either a tab or space..
+
+
+33.0 fold_long_lines.c
+This program takes an input line and splits into two or more if it exceeds a certain column length.
