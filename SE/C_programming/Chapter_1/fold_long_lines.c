@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/** Maximum number of columns allowed on an input line */
+#define MAX_COUNT 20
+
+/** Prototype declaration */
+void fold_long_lines(int max_count);
+
 /**
  * main - Entry to program
  *
@@ -11,5 +17,7 @@
 
 int main(void)
 {
+	fold_long_lines(MAX_COUNT);
+
 	return (0);
 }
