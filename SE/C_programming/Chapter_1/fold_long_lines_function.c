@@ -31,6 +31,8 @@ void fold_long_lines(int m_count)
 
 			if (column_count > m_count)
 			{
+				putchar('\n');
+				column_count = 0;
 			}
 			putchar(c);
 		}
