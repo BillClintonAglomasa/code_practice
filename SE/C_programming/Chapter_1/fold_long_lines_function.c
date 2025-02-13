@@ -3,6 +3,8 @@
 /**
  * fold_long_lines - A function that fold long lines into two or more
  *
+ * @m_count: An integer of of the number of columns a line should not exceed
+ *
  * Return: Nothing
  *
  * Description: Takes an input line and then breaks it into two or more lines
