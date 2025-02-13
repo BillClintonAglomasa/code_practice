@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/** Function prototype */
+void entab_function( int tabstop);
+
 /**
  * main - Entry to program
  *
@@ -18,5 +21,6 @@ int main(void)
 	spaces = 4;
 
 	entab_function(spaces);
+
 	return (0);
 }
