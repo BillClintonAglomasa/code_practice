@@ -16,41 +16,42 @@
 void fold_long_lines(int m_count)
 {
 	/** Declaration of variables */
-	int c, column_count, state, word_count;
-	int current_line;
+	int c, column_count, state;
 
 	/** Initialization of variables */
-	column_count = 0;
-	word_count = 0;
+        column_count = 0, state = WORD_OUT;
 
 
-	/** Check if it is a line */
 	while ((c = getchar()) != EOF)
+	{
+		if (c == ' ' || c == '\t' || c == '\n')
 		{
-			column_count++
-			if ((c >= 'a' || c <= 'z') && (c >= 'A' || c <= 'Z'))
-			{
-				state = WORD_IN;
-				word_count++;
-
-				/** Check if line exceeds 20 columns */
-				current_line = column_count + word_count;
-
-				if (current_line < m_count)
-					putchar(c);
-			}
-			
-			if ((c == '\n') && (column_count < m_count))
+			state = WORD_OUT;
+			if (column_count >= m_count)
 			{
 				putchar('\n');
 				column_count = 0;
 			}
 
-			if (column_count > m_count)
+			else
 			{
-				putchar('\n');
-				column_count = 0;
+				putchar(c);
+				column_count++;
 			}
-			putchar(c);
 		}
+
+		else
+		{
+			if (column_count >= m_count)
+			{
+				putchar('-');
+				putchar('\n');
+				column_count = 0;
+			}
+
+			putchar(c);
+			column_count++;
+			state = WORD_IN;
+		}
+	}
 }
