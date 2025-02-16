@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/** Function prototype */
+void uncomment_function(void);
+
 /**
  * main - Entry to program
  *
