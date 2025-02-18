@@ -129,3 +129,7 @@ with either a tab or space..
 
 33.0 fold_long_lines.c
 This program takes an input line and splits into two or more if it exceeds a certain column length.
+
+
+34.0 fold_long_lines.c
+This function breaks an input line that exceeds a number of column counts. If it finds a word that exceeds the limit, it puts a hyphen and the starts the remaining words on another line.
