@@ -8,8 +8,9 @@
 
 int main(void)
 {
-	/** Declaration of variables */
-	int c, i;
+        /** Declaration of variables */
+	int c;
+	int i;
 	int lim;
 	char ch[100] = {0};
 
@@ -23,21 +24,6 @@ int main(void)
 	ch[i] = '\0';
 
 	printf("The final count is %d", i);
-
-	/** Rewritting the for loop without && or ||*/
-	for (i = 0; i < lim - 1; i++)
-	{
-		c = getchar();
-
-		if (c == EOF)
-			break;
-		if (c == '\n')
-			break;
-		ch[i] = c;}
-	ch[i] = '\0';
-
-	printf("This loop also gives the i value to be %d: ", i);
-
 
 	return (0);
 }
