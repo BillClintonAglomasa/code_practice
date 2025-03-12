@@ -25,21 +25,23 @@ int a_htoi(const char s[])
 		i += 2;
 
 	/** Checking if it is a decimal */
-	if (a_isdigit(s[i]))
-		digit = s[i] - '0';
+	while (s[i] != '\0')
+	{
+		if (a_isdigit(s[i]))
+			digit = s[i] - '0';
 
-	else if (s[i] >= 'a' && s[i] <= 'f')
-		digit = s[i] - 'a' + 10;
+		else if (s[i] >= 'a' && s[i] <= 'f')
+			digit = s[i] - 'a' + 10;
 
-	else if (s[i] >= 'A' && s[i] <= 'F')
-		digit = s[i] - 'A' + 10;
-
-	else
-		break;
+		else if (s[i] >= 'A' && s[i] <= 'F')
+			digit = s[i] - 'A' + 10;
+		else
+			break;
 
 	result = result * 16 + digit;
 
-	ii;
+	i++;
+	}
 
 	return (result);
 }
