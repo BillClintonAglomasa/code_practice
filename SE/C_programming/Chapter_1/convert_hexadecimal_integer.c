@@ -19,9 +19,9 @@ int main(void)
 
 
 	/** Printing the decimal equivalent of the hexadecimal */
-	printf("Decimal for hex1 is %d", a_htoi(hex1));
-	printf("Decimal for hex2 is %d", a_htoi(hex2));
-	printf("Decimal for hex3 is %d", a_htoi(hex3));
+	printf("\nDecimal for hex1 is %d\n", a_htoi(hex1));
+	printf("Decimal for hex2 is %d\n", a_htoi(hex2));
+	printf("Decimal for hex3 is %d\n", a_htoi(hex3));
 
 	return (0);
 }
