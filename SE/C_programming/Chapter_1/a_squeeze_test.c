@@ -29,7 +29,7 @@ int main(void)
 	}
 
 	/** Modification of array */
-	a_squeeze(a[], c);
+	a_squeeze(a, c);
 
 	/** After modification of array */
 	putchar('\n');
