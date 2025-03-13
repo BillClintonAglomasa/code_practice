@@ -38,6 +38,7 @@ int main(void)
 		printf("%c", a[j]);
 		j++;
 	}
+	putchar('\n');
 
 	return (0);
 }
