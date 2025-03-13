@@ -8,7 +8,7 @@
  * Return: Nothing
  */
 
-void a_squeeze(int c)
+void a_squeeze(char s[], int c)
 {
 	/** Declaration of variables */
 	int i, j;
