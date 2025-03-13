@@ -3,6 +3,7 @@
 /**
  * a_squeeze - A function that deletes a character from an array
  *
+ * @s[]: The input character array
  * @c: A character that is to be deleted from the array
  *
  * Return: Nothing
