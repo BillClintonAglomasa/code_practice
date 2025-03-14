@@ -14,8 +14,8 @@ int main(void)
 	/** Declaration and initialization */
 	int i = 0;
 
-	char c[] = "Bill Clinton Aglomasa";
-	char d[] = "is my name.";
+	char c[50] = "Bill Clinton Aglomasa";
+	char d[] = " is my name.";
 
 	a_strcat(c, d);
 
@@ -26,6 +26,8 @@ int main(void)
 		printf("%c", c[i]);
 		i++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
