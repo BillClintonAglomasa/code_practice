@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * a_strcpy - A function that concatenates one string to another
+ * a_strcat - A function that concatenates one string to another
  *
  * @s: An char array that another array will be concated to
  * @t: An char array to appended to an array
@@ -9,7 +9,7 @@
  * Return: Nothing
  */
 
-void a_strcpy(char s[], char t[])
+void a_strcat(char s[], char t[])
 {
 	/** Declaration of variables */
 	int i, j;
