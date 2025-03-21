@@ -13,18 +13,29 @@
 void a_squeeze_1(char s1[], char s2[])
 {
 	/** Declaration of variables */
-	int i, j;
+	int i, j, k;
 
 	/** Initialization of variables */
-	i = j = 0;
+	i = 0;
+	k = 0;
 
 	while (s1[i] != '\0')
 	{
-		i++;
+		j = 0;
+		while (s2[j] != '\0')
+		{
+			if (s1[i] != s2[j])
+			{
+				s1[k] = s1[i];
+				k++;
+			}
 
-		if (s1[i] != s2[j])
 			j++;
 
-		s1[i] = '\0';
+		}
+
+		i++;
 	}
+
+	s1[k] = '\0';
 }
