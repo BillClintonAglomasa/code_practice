@@ -17,13 +17,13 @@ int a_any(char s1[], char s2[])
 	/** Declaration of variables */
 	int i, j, found;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 	{
-		for (j = 0; s[j] != '\0'; j++)
+		for (j = 0; s2[j] != '\0'; j++)
 		{
 			found = 0;
 
-			if (s[i] == s[j])
+			if (s1[i] == s2[j])
 			{
 				found = 1;
 				return (i);
