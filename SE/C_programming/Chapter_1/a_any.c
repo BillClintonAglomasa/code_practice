@@ -12,7 +12,7 @@
  *         -1 if there are no matches.
  */
 
-int a_any(s1[], s2[])
+int a_any(char s1[], char s2[])
 {
 	/** Declaration of variables */
 	int i, j, found;
