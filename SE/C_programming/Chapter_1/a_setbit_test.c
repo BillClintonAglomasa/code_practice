@@ -22,7 +22,7 @@ int main(void)
 
 	/** Printing value of b */
 	putchar('\n');
-	putchar(b);
+	printf("The value of b is %d", b);
 
 	return (0);
 }
